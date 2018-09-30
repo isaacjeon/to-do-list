@@ -1,5 +1,5 @@
 body {
-  text-align : center;
+  text-align: center;
   font-family: 'Arial';
 }
 
@@ -9,6 +9,15 @@ h1 {
 
 p {
   color: blue;
+}
+
+ul {
+  text-align: left;
+  margin-left: 100px;
+}
+
+li {
+  border-style: solid
 }
 
 .delete {
