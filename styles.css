@@ -10,7 +10,10 @@ h1 {
 p {
   color: blue;
 }
-
+button {
+  background-color: white;
+  color: black;
+}
 .delete {
   background-color: black;
   color: white;
