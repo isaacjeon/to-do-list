@@ -2,7 +2,7 @@ var newItem = document.getElementById("newItem");
 var add = document.getElementById("add");
 var itemList = document.getElementById("itemList");
 
-add.onclick = function() {addItem()};
+add.addEventListener("click", function(){addItem()});
 
 function addItem(){
   var button = document.createElement("button");
