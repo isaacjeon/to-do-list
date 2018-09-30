@@ -5,7 +5,7 @@ var itemList = document.getElementById("itemList");
 add.onclick = function(){addItem()};
 
 function addItem(){
-  if (newItem.value != ""){
+  if (newItem.value.length > 0){
     var button = document.createElement("button");
     var li = document.createElement("li");
     button.appendChild(document.createTextNode("X"));
