@@ -8,6 +8,7 @@ function addItem(){
   if (newItem.value.length > 0){
     var button = document.createElement("button");
     var li = document.createElement("li");
+    button.className = "delete";
     button.appendChild(document.createTextNode("X"));
     li.appendChild(button);
     li.appendChild(document.createTextNode("  "));
