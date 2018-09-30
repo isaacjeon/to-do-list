@@ -10,7 +10,6 @@ function addItem(){
   button.appendChild(document.createTextNode("X"));
   li.appendChild(button);
   li.appendChild(document.createTextNode(newItem.value));
-  itemList.appendChild(button);
   itemList.appendChild(li);
   newItem.value = "";
 }
