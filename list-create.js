@@ -9,7 +9,7 @@ function addItem(){
   var li = document.createElement("li");
   button.appendChild(document.createTextNode("X"));
   li.appendChild(button);
-  li.innerHTML += "  ";
+  li.appendChild(document.createTextNode("  "));
   li.appendChild(document.createTextNode(newItem.value));
   itemList.appendChild(li);
   newItem.value = "";
