@@ -7,7 +7,8 @@ add.onclick = function() {addItem()};
 function addItem(){
   var button = document.createElement("button");
   var li = document.createElement("li");
-  li.appendChild(document.createTextNode("X"));
+  button.appendChild(document.createTextNode("X"));
+  li.appendChild(button);
   li.appendChild(document.createTextNode(newItem.value));
   itemList.appendChild(button);
   itemList.appendChild(li);
