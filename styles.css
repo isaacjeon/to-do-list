@@ -1,0 +1,17 @@
+body {
+  text-align : center;
+  font-family: 'Arial';
+}
+
+h1 {
+  color: red;
+}
+
+p {
+  color: blue;
+}
+
+button {
+  background-color: black;
+  color: white;
+}
