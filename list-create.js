@@ -10,9 +10,8 @@ function addItem(){
     var li = document.createElement("li");
     button.className = "delete";
     button.appendChild(document.createTextNode("X"));
-    li.appendChild(button);
-    li.appendChild(document.createTextNode("  "));
     li.appendChild(document.createTextNode(newItem.value));
+    li.appendChild(button);
     itemList.appendChild(li);
     newItem.value = "";
 
