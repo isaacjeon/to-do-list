@@ -1,3 +1,5 @@
+console.log("hi");
+
 var newItem = document.getElementById("newItem");
 var add = document.getElementById("add");
 var itemList = document.getElementById("itemList");
