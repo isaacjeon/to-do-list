@@ -22,7 +22,7 @@ li {
 }
 
 .delete {
-  text-align: right;
+  float: right;
   background-color: black;
   color: white;
 }
